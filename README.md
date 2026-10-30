@@ -1,3 +1,5 @@
+<p align="center"><img src="build/icon.png" alt="JobSweep icon" width="128"></p>
+
 # JobSweep
 
 A personal, local-first Windows desktop app that automates job hunting: it finds matching jobs, tailors your resume
@@ -9,7 +11,7 @@ and cover letter for each one, and fills in applications. Free local AI does the
 
 ## Install on Windows
 
-1. Download **JobSweep-Setup-0.0.1.exe** from the latest release on GitHub (**Releases** in the repo sidebar).
+1. Download **JobSweep-Setup-0.0.1.exe** from the [latest release](https://github.com/Cyberhex1/jobsweep-app/releases/latest).
    For an unreleased build, open **Actions → Windows installer**, pick the latest green run, and download
    **JobSweep-Setup** under *Artifacts* (it arrives as a zip; the .exe is inside).
 2. Run it. The installer isn't code-signed yet, so Windows SmartScreen says "Windows protected your PC". Click
