@@ -1,0 +1,10 @@
+node_modules/
+dist/
+out/
+.env
+.env.*
+# Personal data and real resumes stay local
+local/
+*.sqlite
+*.sqlite3
+out/

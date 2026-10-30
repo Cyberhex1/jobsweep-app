@@ -1,0 +1,97 @@
+{
+ "fields": {
+  "Project Management": [
+   "Project Coordinator",
+   "Project Manager",
+   "Associate Project Manager",
+   "Program Coordinator",
+   "Program Manager",
+   "Project Analyst",
+   "PMO Analyst",
+   "Scrum Master",
+   "Implementation Specialist",
+   "Implementation Project Manager"
+  ],
+  "Operations": [
+   "Operations Analyst",
+   "Operations Coordinator",
+   "Operations Manager",
+   "Business Operations Analyst",
+   "Process Improvement Analyst",
+   "Operations Specialist",
+   "Continuous Improvement Specialist"
+  ],
+  "Business & Data Analysis": [
+   "Business Analyst",
+   "Data Analyst",
+   "Reporting Analyst",
+   "Business Intelligence Analyst",
+   "Systems Analyst",
+   "ERP Analyst",
+   "Junior Data Analyst",
+   "Financial Analyst"
+  ],
+  "Supply Chain": [
+   "Supply Chain Analyst",
+   "Logistics Coordinator",
+   "Inventory Analyst",
+   "Procurement Specialist",
+   "Purchasing Agent",
+   "Order Management Specialist",
+   "Order Processing Specialist",
+   "Demand Planner",
+   "Buyer",
+   "Materials Planner"
+  ],
+  "IT & Support": [
+   "Technical Support Analyst",
+   "IT Support Specialist",
+   "Help Desk Technician",
+   "Service Desk Analyst",
+   "Desktop Support Technician",
+   "IT Coordinator",
+   "Systems Administrator",
+   "Application Support Analyst"
+  ],
+  "Customer Experience": [
+   "Customer Success Manager",
+   "Customer Service Representative",
+   "Client Services Coordinator",
+   "Account Coordinator",
+   "Customer Experience Specialist"
+  ],
+  "Administration": [
+   "Administrative Assistant",
+   "Office Manager",
+   "Executive Assistant",
+   "Operations Administrator",
+   "Program Assistant"
+  ],
+  "Marketing": [
+   "Marketing Coordinator",
+   "Digital Marketing Specialist",
+   "Marketing Analyst",
+   "Social Media Coordinator"
+  ],
+  "Finance & Accounting": [
+   "Accounts Payable Specialist",
+   "Billing Specialist",
+   "Staff Accountant",
+   "Accounting Clerk"
+  ],
+  "Human Resources": [
+   "HR Coordinator",
+   "Recruiting Coordinator",
+   "HR Generalist",
+   "HRIS Analyst"
+  ],
+  "Government": [
+   "Management Analyst",
+   "Program Analyst",
+   "Administrative Specialist",
+   "IT Specialist",
+   "Logistics Management Specialist",
+   "Budget Analyst"
+  ]
+ }
+}

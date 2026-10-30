@@ -1,0 +1,40 @@
+Jordan Sample
+
+Raleigh, North Carolina | Phone : (919) 555-0142 | jordan.sample@example.com
+
+Operations Coordinator / Data Analyst Detail-minded operations professional with experience in logistics, reporting, and process improvement. Comfortable with ERP systems and turning data into decisions.
+
+Key Strengths and skills
+Skills: Process Improvement, Data Analysis & Reporting, Requirements Gathering, Budget Tracking, , Team Player, Positive Attitude, Inventory Management, Stakeholder
+Communication
+
+Technical Toolkit: Excel | Power BI | ERP Systems (SAP, Oracle) | SQL
+Python | Jira
+
+Professional Experience
+​
+Acme Logistics ​
+
+Remote | Raleigh, NC
+Operations Coordinator ​
+Jan 2022 – Present
+●​ Built weekly KPI dashboards in Power BI that cut reporting time by 40%
+●​ Designed and maintained shipment tracking reports to monitor order progress and delivery metrics
+●​ Developed and maintained order tracking reports, providing insights that improved delivery forecasting
+●​ Coordinated cross-department projects with Finance and Sales using Jira and
+   SQL queries
+
+Blue Ridge Supply ​
+Durham, NC
+Inventory Clerk ​
+Jun 2019 – Dec 2021
+●​ Responsible for cycle counts across 3 warehouses
+●​ Reduced stock discrepancies by 97% through a new SAP reconciliation process
+
+CERTIFICATIONS
+●​ Microsoft Excel Expert
+
+EDUCATION
+North Carolina State University
+Bachelor of Science 2019
+Major in Supply Chain Management

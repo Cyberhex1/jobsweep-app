@@ -1,0 +1,29 @@
+appId: com.cyberhex1.jobsweep
+productName: JobSweep
+copyright: Copyright © 2026 JobSweep
+directories:
+  output: dist
+  buildResources: build
+files:
+  - out/**/*
+  - package.json
+asarUnpack:
+  - node_modules/playwright-core/**
+extraResources:
+  - from: extension
+    to: extension
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+  icon: build/icon.png
+  artifactName: JobSweep-Setup-${version}.${ext}
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: JobSweep
+  deleteAppDataOnUninstall: false
+  runAfterFinish: true

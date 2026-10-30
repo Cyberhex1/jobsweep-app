@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "JobSweep Importer",
+  "version": "0.0.1",
+  "description": "Adds an “Import to JobSweep” button to job postings. Reads only the job you're viewing, only when you click.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["http://127.0.0.1/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html", "default_title": "JobSweep" },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.linkedin.com/jobs/*",
+        "https://*.indeed.com/*",
+        "https://hiring.cafe/*",
+        "https://www.glassdoor.com/*",
+        "https://www.ziprecruiter.com/*",
+        "https://www.simplyhired.com/*",
+        "https://www.monster.com/*",
+        "https://www.dice.com/*"
+      ],
+      "js": ["extract.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body { width: 300px; margin: 0; padding: 16px; background: #0b0d12; color: #ece8de; font: 13px 'Segoe UI', system-ui, sans-serif; }
+      h1 { font-size: 14px; letter-spacing: .2em; margin: 0 0 12px; color: #c9a961; }
+      input { width: 100%; box-sizing: border-box; padding: 8px 10px; border-radius: 8px; border: 1px solid rgba(255,255,255,.12); background: rgba(0,0,0,.3); color: #ece8de; font-family: Consolas, monospace; }
+      button { margin-top: 8px; width: 100%; padding: 9px; border-radius: 10px; border: 1px solid #8a7140; background: linear-gradient(180deg,#e7cf94,#c9a961 55%,#8a7140); color: #1a1407; font-weight: 600; cursor: pointer; }
+      button.ghost { background: rgba(255,255,255,.04); color: #ece8de; border-color: rgba(255,255,255,.12); }
+      .status { margin-top: 10px; font-size: 12px; color: #9a968c; }
+      .ok { color: #5bc79a; } .bad { color: #e5675f; }
+    </style>
+  </head>
+  <body>
+    <h1>JOBSWEEP</h1>
+    <label>Pairing code (Maintenance → Edge extension)</label>
+    <input id="code" placeholder="47821-xxxxxxxxxxxxxxxxxxxxxxxx" />
+    <button id="save">Pair</button>
+    <button id="import" class="ghost">Import the job on this page</button>
+    <div id="status" class="status"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,149 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-ink: #07080c;
+  --color-ink-2: #0d0f15;
+  --color-panel: rgb(255 255 255 / 0.035);
+  --color-line: rgb(255 255 255 / 0.08);
+  --color-text: #ece8de;
+  --color-muted: #9a968c;
+  --color-faint: #6b685f;
+  --color-brass: #c9a961;
+  --color-brass-2: #e7cf94;
+  --color-brass-3: #8a7140;
+  --color-ok: #5bc79a;
+  --color-warn: #e6b450;
+  --color-bad: #e5675f;
+  --color-info: #7aa7e8;
+  --font-sans: 'Segoe UI Variable Text', 'Segoe UI', system-ui, sans-serif;
+  --font-display: 'Segoe UI Variable Display', 'Segoe UI', system-ui, sans-serif;
+  --font-mono: 'Cascadia Code', Consolas, ui-monospace, monospace;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: radial-gradient(1200px 700px at 70% -10%, rgb(201 169 97 / 0.09), transparent 60%), radial-gradient(900px 600px at -10% 110%, rgb(122 167 232 / 0.06), transparent 60%), var(--color-ink);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  user-select: none;
+}
+input,
+textarea,
+select,
+.selectable {
+  user-select: text;
+}
+::selection {
+  background: rgb(201 169 97 / 0.35);
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(255 255 255 / 0.08);
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(201 169 97 / 0.3);
+}
+.drag {
+  -webkit-app-region: drag;
+}
+.no-drag {
+  -webkit-app-region: no-drag;
+}
+.glass {
+  background: linear-gradient(180deg, rgb(255 255 255 / 0.05), rgb(255 255 255 / 0.02));
+  border: 1px solid var(--color-line);
+  box-shadow: 0 1px 0 rgb(255 255 255 / 0.04) inset, 0 20px 40px -24px rgb(0 0 0 / 0.6);
+  backdrop-filter: blur(14px);
+}
+.brass-text {
+  background: linear-gradient(180deg, var(--color-brass-2), var(--color-brass) 55%, var(--color-brass-3));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.led {
+  font-family: var(--font-mono);
+  color: #ffb547;
+  text-shadow: 0 0 8px rgb(255 160 40 / 0.65), 0 0 2px rgb(255 200 120 / 0.9);
+  letter-spacing: 0.12em;
+}
+.field {
+  width: 100%;
+  background: rgb(0 0 0 / 0.25);
+  border: 1px solid var(--color-line);
+  border-radius: 10px;
+  padding: 8px 11px;
+  color: var(--color-text);
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.field:focus {
+  border-color: rgb(201 169 97 / 0.55);
+  box-shadow: 0 0 0 3px rgb(201 169 97 / 0.12);
+}
+.field::placeholder {
+  color: var(--color-faint);
+}
+select.field option {
+  background: #12141b;
+}
+.prose-job {
+  white-space: pre-wrap;
+  line-height: 1.55;
+  color: #d6d2c8;
+}
+@keyframes shimmer {
+  0% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: 400px 0;
+  }
+}
+.skeleton {
+  background: linear-gradient(90deg, rgb(255 255 255 / 0.03), rgb(255 255 255 / 0.08), rgb(255 255 255 / 0.03));
+  background-size: 800px 100%;
+  animation: shimmer 1.4s infinite linear;
+}
+
+/* Keyboard focus: a visible brass ring, only when navigating by keyboard. */
+button:focus-visible,
+a:focus-visible,
+[role='switch']:focus-visible,
+input[type='range']:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--color-brass-2);
+  outline-offset: 2px;
+}
+
+/* "Reduce motion" setting (Maintenance → Sound & motion), or the Windows animation setting. */
+.reduce-motion *,
+.reduce-motion *::before,
+.reduce-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,460 @@
+{
+ "skills": {
+  "project management": [
+   "project management",
+   "project coordination",
+   "project planning",
+   "pmp",
+   "capm",
+   "project manager"
+  ],
+  "agile": [
+   "agile",
+   "agile methodologies",
+   "scrum",
+   "kanban",
+   "sprint planning",
+   "scrum master"
+  ],
+  "waterfall": [
+   "waterfall"
+  ],
+  "stakeholder management": [
+   "stakeholder management",
+   "stakeholder communication",
+   "stakeholder engagement"
+  ],
+  "requirements gathering": [
+   "requirements gathering",
+   "requirements analysis",
+   "business requirements",
+   "brd",
+   "user stories"
+  ],
+  "risk management": [
+   "risk management",
+   "risk assessment",
+   "risk mitigation"
+  ],
+  "budget tracking": [
+   "budget tracking",
+   "budgeting",
+   "budget management",
+   "cost control",
+   "cost estimation"
+  ],
+  "process improvement": [
+   "process improvement",
+   "continuous improvement",
+   "process optimization",
+   "workflow optimization",
+   "lean",
+   "six sigma",
+   "lean six sigma",
+   "kaizen"
+  ],
+  "change management": [
+   "change management"
+  ],
+  "vendor management": [
+   "vendor management",
+   "supplier management",
+   "procurement"
+  ],
+  "data analysis": [
+   "data analysis",
+   "data analytics",
+   "analytics",
+   "analyze data",
+   "data-driven"
+  ],
+  "data visualization": [
+   "data visualization",
+   "dashboards",
+   "reporting & dashboards",
+   "dashboard"
+  ],
+  "reporting": [
+   "reporting",
+   "reports",
+   "kpi reporting",
+   "reporting & forecasting"
+  ],
+  "forecasting": [
+   "forecasting",
+   "demand planning",
+   "demand forecasting"
+  ],
+  "statistical analysis": [
+   "statistical analysis",
+   "statistics",
+   "regression"
+  ],
+  "excel": [
+   "excel",
+   "microsoft excel",
+   "vlookup",
+   "xlookup",
+   "pivot tables",
+   "pivot table",
+   "advanced excel"
+  ],
+  "power bi": [
+   "power bi",
+   "powerbi",
+   "dax"
+  ],
+  "tableau": [
+   "tableau"
+  ],
+  "sql": [
+   "sql",
+   "t-sql",
+   "mysql",
+   "postgresql",
+   "sql server",
+   "pl/sql"
+  ],
+  "python": [
+   "python",
+   "pandas",
+   "numpy"
+  ],
+  "r": [
+   "r programming",
+   "rstudio"
+  ],
+  "microsoft project": [
+   "microsoft project",
+   "ms project"
+  ],
+  "microsoft office": [
+   "microsoft office",
+   "microsoft office suite",
+   "ms office",
+   "office 365",
+   "microsoft 365",
+   "word",
+   "powerpoint",
+   "outlook"
+  ],
+  "google workspace": [
+   "google workspace",
+   "g suite",
+   "google sheets"
+  ],
+  "sharepoint": [
+   "sharepoint"
+  ],
+  "jira": [
+   "jira",
+   "atlassian"
+  ],
+  "confluence": [
+   "confluence"
+  ],
+  "asana": [
+   "asana"
+  ],
+  "smartsheet": [
+   "smartsheet"
+  ],
+  "monday.com": [
+   "monday.com"
+  ],
+  "erp systems": [
+   "erp",
+   "erp systems",
+   "enterprise resource planning"
+  ],
+  "sap": [
+   "sap",
+   "sap erp",
+   "s/4hana",
+   "sap mm",
+   "sap sd"
+  ],
+  "oracle": [
+   "oracle",
+   "oracle erp",
+   "oracle netsuite",
+   "netsuite"
+  ],
+  "syteline": [
+   "syteline",
+   "infor"
+  ],
+  "dynamics": [
+   "microsoft dynamics",
+   "dynamics 365"
+  ],
+  "workday hcm": [
+   "workday hcm"
+  ],
+  "salesforce": [
+   "salesforce",
+   "crm"
+  ],
+  "kronos": [
+   "kronos",
+   "ukg"
+  ],
+  "supply chain management": [
+   "supply chain",
+   "supply chain management",
+   "scm",
+   "logistics",
+   "inventory management",
+   "inventory control",
+   "warehouse",
+   "distribution",
+   "purchasing",
+   "order management",
+   "order processing",
+   "fulfillment"
+  ],
+  "operations management": [
+   "operations management",
+   "operations",
+   "operational efficiency"
+  ],
+  "quality assurance": [
+   "quality assurance",
+   "qa",
+   "quality control",
+   "qc",
+   "iso 9001"
+  ],
+  "customer service": [
+   "customer service",
+   "customer support",
+   "client service",
+   "customer success",
+   "customer experience"
+  ],
+  "technical support": [
+   "technical support",
+   "help desk",
+   "helpdesk",
+   "service desk",
+   "desktop support",
+   "troubleshooting",
+   "tier 1",
+   "tier 2",
+   "it support"
+  ],
+  "itil": [
+   "itil",
+   "incident management",
+   "ticketing",
+   "servicenow",
+   "zendesk"
+  ],
+  "networking": [
+   "networking",
+   "tcp/ip",
+   "dns",
+   "dhcp",
+   "lan",
+   "wan",
+   "vpn"
+  ],
+  "active directory": [
+   "active directory",
+   "azure ad",
+   "entra id",
+   "group policy"
+  ],
+  "windows": [
+   "windows",
+   "windows 10",
+   "windows 11",
+   "windows server"
+  ],
+  "macos": [
+   "macos",
+   "mac os",
+   "ios"
+  ],
+  "cloud": [
+   "aws",
+   "azure",
+   "google cloud",
+   "gcp",
+   "cloud computing"
+  ],
+  "cybersecurity": [
+   "cybersecurity",
+   "security+",
+   "information security",
+   "comptia security+"
+  ],
+  "comptia a+": [
+   "comptia a+",
+   "a+ certification"
+  ],
+  "documentation": [
+   "documentation",
+   "technical writing",
+   "sop",
+   "standard operating procedures",
+   "process documentation"
+  ],
+  "training": [
+   "training",
+   "onboarding",
+   "employee training"
+  ],
+  "scheduling": [
+   "scheduling",
+   "calendar management"
+  ],
+  "invoicing": [
+   "invoicing",
+   "invoices",
+   "accounts payable",
+   "accounts receivable",
+   "billing"
+  ],
+  "accounting": [
+   "accounting",
+   "bookkeeping",
+   "quickbooks",
+   "general ledger",
+   "reconciliation"
+  ],
+  "financial analysis": [
+   "financial analysis",
+   "financial modeling",
+   "variance analysis"
+  ],
+  "marketing": [
+   "marketing",
+   "digital marketing",
+   "seo",
+   "sem",
+   "social media",
+   "content marketing",
+   "email marketing",
+   "google analytics",
+   "google ads"
+  ],
+  "graphic design": [
+   "graphic design",
+   "adobe photoshop",
+   "adobe illustrator",
+   "canva",
+   "indesign"
+  ],
+  "sales": [
+   "sales",
+   "business development",
+   "lead generation",
+   "account management"
+  ],
+  "hr": [
+   "human resources",
+   "recruiting",
+   "talent acquisition",
+   "hris",
+   "payroll"
+  ],
+  "compliance": [
+   "compliance",
+   "regulatory compliance",
+   "audit",
+   "sox",
+   "hipaa"
+  ],
+  "fraud prevention": [
+   "fraud",
+   "fraud prevention",
+   "fraud detection"
+  ],
+  "contract management": [
+   "contract management",
+   "contracts"
+  ],
+  "business analysis": [
+   "business analysis",
+   "business analyst",
+   "gap analysis",
+   "process mapping",
+   "visio",
+   "bpmn",
+   "uml"
+  ],
+  "data entry": [
+   "data entry",
+   "data integrity",
+   "data accuracy"
+  ],
+  "cross-functional leadership": [
+   "cross-functional",
+   "cross functional",
+   "cross-department",
+   "cross-departmental"
+  ],
+  "conflict management": [
+   "conflict management",
+   "conflict resolution"
+  ],
+  "time management": [
+   "time management",
+   "prioritization"
+  ],
+  "problem solving": [
+   "problem solving",
+   "problem-solving",
+   "root cause analysis"
+  ],
+  "communication": [
+   "communication",
+   "written communication",
+   "verbal communication",
+   "presentation skills"
+  ],
+  "leadership": [
+   "leadership",
+   "team leadership",
+   "supervision",
+   "people management"
+  ],
+  "javascript": [
+   "javascript",
+   "typescript",
+   "node.js",
+   "react"
+  ],
+  "html/css": [
+   "html",
+   "css"
+  ],
+  "etl": [
+   "etl",
+   "data pipelines",
+   "data warehouse",
+   "ssis"
+  ],
+  "machine learning": [
+   "machine learning",
+   "ai",
+   "artificial intelligence"
+  ],
+  "healthcare": [
+   "healthcare",
+   "emr",
+   "ehr",
+   "epic",
+   "medical billing",
+   "medical coding"
+  ],
+  "bilingual spanish": [
+   "bilingual",
+   "spanish"
+  ],
+  "pace": [
+   "pace"
+  ]
+ }
+}
